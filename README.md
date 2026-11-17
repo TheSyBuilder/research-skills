@@ -36,6 +36,16 @@ Starts from what the work actually earns: the lead contribution is the result th
 - plans one argument across chapters for a thesis or paper-to-thesis conversion ([thesis mode](winning-research-writing/references/thesis.md));
 - grounds its examples in awarded and highly rated ICLR, ICML, NeurIPS, ACL, EMNLP and AAAI papers ([conference evidence](winning-research-writing/references/conference-evidence.md)).
 
+### How it was built
+
+The guidance is grounded in a pass over recent top-venue proceedings, documented in full in [conference evidence](winning-research-writing/references/conference-evidence.md):
+
+- **Corpus.** 70,585 proceedings records indexed on 16 November 2026 across 18 venue editions: ICLR, ICML, ACL, EMNLP and AAAI for 2024-2026, and NeurIPS for 2023-2025 (NeurIPS 2026 proceedings were not yet out). 67,905 of these are research-track papers.
+- **Review scores.** Proceedings titles were matched to public reviewer ratings in the [Paper Copilot OpenReview archive](https://github.com/papercopilot/openreview), giving 33,299 papers with at least one usable rating. Papers with three or more ratings were ranked by mean score within their venue, year and track. ACL, EMNLP and AAAI reviews are not public, so those venues rely on awards instead.
+- **Close reads.** 31 papers, chosen from the top of those rankings and from best-paper and outstanding-paper awards, were read for how they use their figures, tables and section structure. Those observations feed the contribution patterns and figure guidance.
+
+Scores are archived snapshots, not live-verified, and the examples illustrate what strong papers do. They are not a measured effect on acceptance.
+
 ## Installing
 
 Each top-level folder is one self-contained skill.
