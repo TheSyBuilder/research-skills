@@ -35,6 +35,9 @@ Starts from what the work actually earns: the lead contribution is the result th
 - removes "AI slop" by tracing defects to evidence rather than swapping vocabulary ([prose](winning-research-writing/references/prose.md));
 - plans one argument across chapters for a thesis or paper-to-thesis conversion ([thesis mode](winning-research-writing/references/thesis.md));
 - grounds its examples in awarded and highly rated ICLR, ICML, NeurIPS, ACL, EMNLP and AAAI papers ([conference evidence](winning-research-writing/references/conference-evidence.md)).
+- answers reviews through the manuscript, with every fact sourced, every promise approved and every concern accounted for ([reviewer response](winning-research-writing/references/reviewer-response.md));
+- audits numbers, citations and declarations against their records before delivery, in a fresh context when it can ([integrity audit](winning-research-writing/references/integrity-audit.md));
+- routes empirical studies to the right reporting checklist, such as CONSORT, PRISMA, STROBE, TRIPOD+AI or REFORMS ([reporting guidelines](winning-research-writing/references/reporting-guidelines.md)).
 
 ### How it was built
 
@@ -62,6 +65,8 @@ cp -r research-skills/research-idea-finder research-skills/winning-research-writ
 ## Sources and credits
 
 `research-idea-finder` adapts its workflow, ideation-pattern summaries and overlap check from Microsoft's [ResearchStudio-Idea](https://github.com/microsoft/ResearchStudio) (MIT licence; see [NOTICE](NOTICE)), and draws on the LLM-ideation literature listed at the end of its `SKILL.md`, including Si, Yang and Hashimoto (2024), *The Ideation–Execution Gap* (2025), Gupta and Pruthi (2025), Nova, Chain of Ideas, MOOSE-Chem and Scideator.
+
+`winning-research-writing` adapts parts of its reviewer-response, integrity-audit and reporting-guideline references from [ARIS](https://github.com/wanshuiyin/auto-claude-code-research-in-sleep) and [K-Dense scientific-writing](https://github.com/K-Dense-AI/claude-scientific-writer) (both MIT licence; see [NOTICE](NOTICE)).
 
 The skills guide an agent; they do not replace a domain expert's judgment. An idea card is a proposal until an experiment says otherwise.
 
